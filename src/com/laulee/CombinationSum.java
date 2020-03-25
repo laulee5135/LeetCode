@@ -47,7 +47,7 @@ public class CombinationSum {
 
     public static void main(String[] args) {
         CombinationSum combinationSum = new CombinationSum();
-        int[] candidates = {2,3,6,7};
+        int[] candidates = {8,7,4,3};
         int target = 7;
         List<List<Integer>> lists = combinationSum.combinationSum(candidates, target);
         System.out.println(lists);
@@ -69,6 +69,16 @@ public class CombinationSum {
         return finalResults;
     }
 
+    /**
+     *
+     * @param candidates
+     * @param target 每次新组合的数字
+     * @param len
+     * @param pre 正确组合收集器
+     * @param index 每个分支新组合的数开始搜索的位置，比如5下面有3个分支，第一个分支中已经减过2，但是第二个分支中（在整个对5的组合）就不能再减2了，所以
+     *              这时可以让下一个新组合的数搜索位置和上一个新组合数的当前搜索位置保持一直即可。
+     *              误解点：同一个分支数字可以重复出现，不同分支间数字不能重复。
+     */
     public void dfs(int[] candidates, int target,int len, Stack<Integer> pre,int index){   //Depth First Search
         for (int i = index; i < len; i++) {
             int candidate = candidates[i];
@@ -77,11 +87,11 @@ public class CombinationSum {
                 int result = target - candidate;
                 if (result == 0) {
                     finalResults.add(new ArrayList<>(pre));
-                    pre.pop(); //当前分支符合条件，已经装到final集合中了，但最后一个元素生命周期结束，不能带到上级节点的兄弟节点中。
+                    pre.pop(); //完成使命，进行回收，不能带到上级节点的兄弟节点中。
                     break;
                 }else{ //>0
                     dfs(candidates, result,len,pre,i);
-                    pre.pop(); //走不通就退一步，回溯。 执行到叶子结点如果还没有符合条件（即下面结果为负数的处理结果），那么说明该分支不符合条件，删除。
+                    pre.pop(); //走不通就退一步，回溯。 执行到叶子结点如果还没有符合条件（即下面结果为负数的处理结果），那么说明该分支不符合条件，清除垃圾。
                 }
 
             }else{  //处理结果为负数
