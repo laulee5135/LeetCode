@@ -26,9 +26,9 @@ public class TrappingRainWater {
 
     public static void main(String[] args) {
         TrappingRainWater trappingRainWater = new TrappingRainWater();
-        int[] height = new int[]{527,40,913,13};  //数组值太大且太长，无法执行。
+        int[] height = new int[]{ 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};  //数组值太大且太长，无法执行。
 
-        int trap = trappingRainWater.trap(height);
+        int trap = trappingRainWater.trap1(height);
         System.out.println(trap);
     }
 
@@ -40,9 +40,119 @@ public class TrappingRainWater {
         List<Integer> collect = Arrays.stream(height).boxed().collect(Collectors.toList());
         Deque<Integer> heightQ = new ArrayDeque<Integer>(collect);
 
-        return dfs(heightQ,max);
+        return dfs1(heightQ,max);
     }
 
+
+    /**
+     * AC
+     * @param height
+     * @return
+     */
+    public int trap2(int[] height) {
+        int sum = 0;
+        //最两端的列不用考虑，因为一定不会有水。所以下标从 1 到 length - 2
+        for (int i = 1; i < height.length - 1; i++) {
+            int max_left = 0;
+            //找出左边最高
+            for (int j = i - 1; j >= 0; j--) {
+                if (height[j] > max_left) {
+                    max_left = height[j];
+                }
+            }
+            int max_right = 0;
+            //找出右边最高
+            for (int j = i + 1; j < height.length; j++) {
+                if (height[j] > max_right) {
+                    max_right = height[j];
+                }
+            }
+            //找出两端较小的
+            int min = Math.min(max_left, max_right);
+            //只有较小的一段大于当前列的高度才会有水，其他情况不会有水
+            if (min > height[i]) {
+                sum = sum + (min - height[i]);
+            }
+        }
+        return sum;
+
+    }
+
+
+
+    /**
+     * lc代码
+     * @param height
+     * @return
+     */
+    public int trap1(int[] height) {
+        int sum = 0;
+        int max = Arrays.stream(height).max().getAsInt();
+        for (int i = 1; i <= max; i++) {
+            boolean isStart = false; //标记是否开始更新 temp
+            int temp_sum = 0;
+            for (int j = 0; j < height.length; j++) {
+                if (isStart && height[j] < i) {
+                    temp_sum++;
+                }
+                if (height[j] >= i) {
+                    sum = sum + temp_sum;
+                    temp_sum = 0;
+                    isStart = true;
+                }
+            }
+        }
+        return sum;
+    }
+
+
+    /**
+     * 第二个版思路：也是按行查找，每行小于等于当前高度的肯定有水。
+     * @param heightQ
+     * @param max
+     * @return
+     */
+    public int dfs1(Deque<Integer> heightQ, int max){
+        int sum = 0;
+        for (int i = 0; i < max; i++) {
+
+            //以下两个for是为了每次去掉上一层已经计算过有水的位置。，每行开头或结果小于当前高度删除。
+            for (int j = heightQ.size(); j > 0; j--) {
+                if (heightQ.peekFirst() <= i) {
+                    heightQ.pollFirst();
+                    continue;
+                }else{
+                    break;
+                }
+            }
+
+            for (int j = heightQ.size(); j > 0; j--) {
+                if (heightQ.peekLast() <= i) {
+                    heightQ.pollLast();
+                    continue;
+                }else{
+                    break;
+                }
+            }
+
+            final int m = i;
+            int count = (int)heightQ.stream().filter(ele -> {
+                return ele <= m;
+            }).count();
+
+            sum += count;
+        }
+
+        return sum;
+    }
+
+
+    /**
+     * 第一版
+     * @param heightQ
+     * @param max
+     * @return
+     */
     public int dfs(Deque<Integer> heightQ,int max){
         for (int j = heightQ.size(); j > 0; j--) {
             if (heightQ.peekFirst() <= 0) {
