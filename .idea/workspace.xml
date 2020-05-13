@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f9ae92c-4bb7-49b1-ae27-c98f76b26730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/laulee/BinarySearch.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeetCode" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZhldUqLePpsvYAg2SH2ACTa0h0" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.BinarySearch" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.RemoveElement" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.TrappingRainWater" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.ValidParentheses" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.ZigZagConversion" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TrappingRainWater" />
+      <item itemvalue="Application.ValidParentheses" />
+      <item itemvalue="Application.RemoveElement" />
+      <item itemvalue="Application.ZigZagConversion" />
+      <item itemvalue="Application.BinarySearch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.ZigZagConversion" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.TrappingRainWater" />
+        <item itemvalue="Application.ValidParentheses" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f9ae92c-4bb7-49b1-ae27-c98f76b26730" name="Default Changelist" comment="" />
+      <created>1585299293839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585299293839</updated>
+      <workItem from="1585299295064" duration="1244000" />
+      <workItem from="1585301079851" duration="8662000" />
+      <workItem from="1585885256574" duration="2753000" />
+      <workItem from="1586398724933" duration="295000" />
+      <workItem from="1588752830303" duration="558000" />
+      <workItem from="1589350368122" duration="2734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="288" y="-873" key="#Project_Structure" timestamp="1585301114203">
+      <screen x="-272" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="288" y="-873" key="#Project_Structure/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585301114203" />
+    <state x="152" y="-877" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585300807375">
+      <screen x="-272" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="152" y="-877" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585300807375" />
+    <state x="436" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585305210529">
+      <screen x="-272" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="436" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305210529" />
+    <state width="431" height="466" key="DebuggerActiveHint" timestamp="1585301886237">
+      <screen x="-272" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="431" height="466" key="DebuggerActiveHint/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585301886237" />
+    <state width="1398" height="129" key="GridCell.Tab.0.bottom" timestamp="1589352588074">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155116" />
+    <state width="1398" height="129" key="GridCell.Tab.0.bottom/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588074" />
+    <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458376" />
+    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586398624092" />
+    <state width="1398" height="129" key="GridCell.Tab.0.center" timestamp="1589352588072">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="246" key="GridCell.Tab.0.center/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155114" />
+    <state width="1398" height="129" key="GridCell.Tab.0.center/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588072" />
+    <state width="1878" height="246" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458373" />
+    <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586398624091" />
+    <state width="1398" height="129" key="GridCell.Tab.0.left" timestamp="1589352588071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="246" key="GridCell.Tab.0.left/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155113" />
+    <state width="1398" height="129" key="GridCell.Tab.0.left/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588071" />
+    <state width="1878" height="246" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458371" />
+    <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586398624090" />
+    <state width="1398" height="129" key="GridCell.Tab.0.right" timestamp="1589352588073">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="246" key="GridCell.Tab.0.right/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155115" />
+    <state width="1398" height="129" key="GridCell.Tab.0.right/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588073" />
+    <state width="1878" height="246" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458374" />
+    <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586398624092" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1586398624095">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="366" key="GridCell.Tab.1.bottom/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179600" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586398624095" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1586398624094">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="366" key="GridCell.Tab.1.center/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179598" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586398624094" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1586398624093">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="366" key="GridCell.Tab.1.left/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179597" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586398624093" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1586398624094">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="366" key="GridCell.Tab.1.right/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179599" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586398624094" />
+    <state x="176" y="-957" key="SettingsEditor" timestamp="1585301158220">
+      <screen x="-272" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="176" y="-957" key="SettingsEditor/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585301158220" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/laulee/TrappingRainWater.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/laulee/ZigZagConversion.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/laulee/ZigZagConversion.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
