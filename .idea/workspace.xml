@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9ae92c-4bb7-49b1-ae27-c98f76b26730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/laulee/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/laulee/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/laulee/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/laulee/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/laulee/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/laulee/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/laulee/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laulee/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +55,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.AddTwoNumbers">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.AddTwoNumbers" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.laulee.BinarySearch" />
       <module name="LeetCode" />
@@ -80,32 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.laulee.TrappingRainWater" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laulee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.laulee.ValidParentheses" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laulee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.laulee.ZigZagConversion" />
       <module name="LeetCode" />
@@ -119,20 +110,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.a" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TrappingRainWater" />
-      <item itemvalue="Application.ValidParentheses" />
       <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.ZigZagConversion" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.a" />
+      <item itemvalue="Application.AddTwoNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.ZigZagConversion" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.a" />
+        <item itemvalue="Application.ZigZagConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +167,12 @@
       <workItem from="1585885256574" duration="2753000" />
       <workItem from="1586398724933" duration="295000" />
       <workItem from="1588752830303" duration="558000" />
-      <workItem from="1589350368122" duration="2734000" />
+      <workItem from="1589350368122" duration="4780000" />
+      <workItem from="1589427378313" duration="603000" />
+      <workItem from="1589769200130" duration="1188000" />
+      <workItem from="1589855014229" duration="63000" />
+      <workItem from="1590053752154" duration="19341000" />
+      <workItem from="1590569875176" duration="4627000" />
     </task>
     <servers />
   </component>
@@ -183,62 +192,79 @@
       <screen x="-272" y="-1080" width="1920" height="1080" />
     </state>
     <state x="436" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305210529" />
+    <state x="476" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1590572317925">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="476" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590572317925" />
     <state width="431" height="466" key="DebuggerActiveHint" timestamp="1585301886237">
       <screen x="-272" y="-1080" width="1920" height="1080" />
     </state>
     <state width="431" height="466" key="DebuggerActiveHint/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585301886237" />
-    <state width="1398" height="129" key="GridCell.Tab.0.bottom" timestamp="1589352588074">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1590574362643">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155116" />
-    <state width="1398" height="129" key="GridCell.Tab.0.bottom/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588074" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362643" />
     <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458376" />
     <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586398624092" />
-    <state width="1398" height="129" key="GridCell.Tab.0.center" timestamp="1589352588072">
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311878" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1590574362640">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="246" key="GridCell.Tab.0.center/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155114" />
-    <state width="1398" height="129" key="GridCell.Tab.0.center/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588072" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362640" />
     <state width="1878" height="246" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458373" />
     <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586398624091" />
-    <state width="1398" height="129" key="GridCell.Tab.0.left" timestamp="1589352588071">
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311876" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1590574362638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="246" key="GridCell.Tab.0.left/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155113" />
-    <state width="1398" height="129" key="GridCell.Tab.0.left/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588071" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362638" />
     <state width="1878" height="246" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458371" />
     <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586398624090" />
-    <state width="1398" height="129" key="GridCell.Tab.0.right" timestamp="1589352588073">
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311875" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1590574362641">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="246" key="GridCell.Tab.0.right/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585305155115" />
-    <state width="1398" height="129" key="GridCell.Tab.0.right/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1589352588073" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362641" />
     <state width="1878" height="246" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080/1440.-1046.1080.1920@-480.-1080.1920.1080" timestamp="1585808458374" />
     <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586398624092" />
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1586398624095">
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311877" />
+    <state width="1398" height="225" key="GridCell.Tab.1.bottom" timestamp="1590574362761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="366" key="GridCell.Tab.1.bottom/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179600" />
+    <state width="1398" height="225" key="GridCell.Tab.1.bottom/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362761" />
     <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586398624095" />
-    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1586398624094">
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311881" />
+    <state width="1398" height="225" key="GridCell.Tab.1.center" timestamp="1590574362759">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="366" key="GridCell.Tab.1.center/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179598" />
+    <state width="1398" height="225" key="GridCell.Tab.1.center/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362759" />
     <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586398624094" />
-    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1586398624093">
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311879" />
+    <state width="1398" height="225" key="GridCell.Tab.1.left" timestamp="1590574362757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="366" key="GridCell.Tab.1.left/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179597" />
+    <state width="1398" height="225" key="GridCell.Tab.1.left/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362757" />
     <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586398624093" />
-    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1586398624094">
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311879" />
+    <state width="1398" height="225" key="GridCell.Tab.1.right" timestamp="1590574362760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="366" key="GridCell.Tab.1.right/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585302179599" />
+    <state width="1398" height="225" key="GridCell.Tab.1.right/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590574362760" />
     <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586398624094" />
-    <state x="176" y="-957" key="SettingsEditor" timestamp="1585301158220">
-      <screen x="-272" y="-1080" width="1920" height="1080" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.23.1440.835/-287.-1080.1920.1080@0.23.1440.835" timestamp="1590574311880" />
+    <state x="336" y="103" key="SettingsEditor" timestamp="1590376298494">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="176" y="-957" key="SettingsEditor/0.0.1440.900/-272.-1080.1920.1080@-272.-1080.1920.1080" timestamp="1585301158220" />
+    <state x="336" y="103" key="SettingsEditor/0.0.1440.900/-287.-1080.1920.1080@0.0.1440.900" timestamp="1590376298494" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,6 +283,11 @@
           <url>file://$PROJECT_DIR$/src/com/laulee/ZigZagConversion.java</url>
           <line>56</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/laulee/AddTwoNumbers.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
