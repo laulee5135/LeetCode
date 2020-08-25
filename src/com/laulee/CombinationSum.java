@@ -39,7 +39,7 @@ import java.util.Stack;
  * 来源：力扣（LeetCode）
  *
  * 误解点：不同结果集中元素相同，但顺序不同不算是结果集
- * 所以要去重复
+ * 所以要去重
  */
 public class CombinationSum {
 
