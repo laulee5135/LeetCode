@@ -1,8 +1,6 @@
 package com.laulee;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * 90.
@@ -30,9 +28,42 @@ public class SubsetsII {
     public static void main(String[] args) {
         SubsetsII subsetsII = new SubsetsII();
         int[] nums = {3,9};
-        List<List<Integer>> lists = subsetsII.subsetsWithDup(nums);
+        List<List<Integer>> lists = subsetsII.subsetsWithDup2(nums);
         System.out.println(lists);
     }
+
+
+    public List<List<Integer>> subsetsWithDup2(int[] nums) {
+        List<List<Integer>> finalList = new ArrayList<>();
+        if (nums == null || nums.length == 0) {
+            finalList.add(new ArrayList<>());
+            return finalList;
+        }
+
+        Map<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            if (map.containsKey(num)) {
+                map.put(num,map.get(num)+1);
+            }else{
+                map.put(num,1);
+            }
+        }
+        final List<Integer> subSet = new ArrayList<>();
+        map.forEach((key,val)->{
+            int temp = finalList.size();
+            for(int m=0;m<temp;m++){
+                List<Integer> sub = subSet;
+                sub = finalList.get(m);
+                for(int k=1;k<=key;k++){
+                    sub.add(key);
+                    finalList.add(sub);
+                }
+            }
+        });
+        return finalList;
+    }
+
 
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> finalList = new ArrayList<>();
