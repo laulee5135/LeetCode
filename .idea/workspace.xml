@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e194599f-09e1-487f-b30c-4d1f92f61dd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/laulee/N_Queens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/laulee/ReverseLinkedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/laulee/exec/DoubleEndsQueueAndDoubleToStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/laulee/SubsetsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laulee/SubsetsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/laulee/lfu/LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/laulee/lfu/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +28,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedListII">
+  <component name="RunManager" selected="Application.LFU">
+    <configuration name="LFU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laulee.lfu.LFU" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laulee.lfu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseLinkedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.laulee.ReverseLinkedListII" />
       <module name="LeetCode" />
@@ -62,25 +74,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LFU" />
         <item itemvalue="Application.ReverseLinkedListII" />
         <item itemvalue="Application.SubsetsII" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e194599f-09e1-487f-b30c-4d1f92f61dd2" name="Default Changelist" comment="" />
@@ -90,62 +107,55 @@
       <updated>1598512356946</updated>
       <workItem from="1598512358375" duration="8824000" />
       <workItem from="1600658024902" duration="19953000" />
-      <workItem from="1608715398317" duration="4236000" />
+      <workItem from="1608715398317" duration="4392000" />
+      <workItem from="1616479768975" duration="4252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="283" key="#Notifications" timestamp="1598520580446">
+    <state x="513" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1616484496249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="463" y="283" key="#Notifications/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598520580446" />
-    <state x="478" y="338" key="#xdebugger.evaluate" timestamp="1598521373173">
+    <state x="513" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484496249" />
+    <state x="730" y="311" key="#xdebugger.evaluate" timestamp="1616484444120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="478" y="338" key="#xdebugger.evaluate/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598521373173" />
-    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1598521333096">
+    <state x="730" y="311" key="#xdebugger.evaluate/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484444120" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1616484713892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="425" height="466" key="DebuggerActiveHint/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598521333096" />
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1601368376305">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484713892" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1616484713889">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593679" />
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-1087.1920.1080/-1080.-1087.1080.1920@0.0.1440.900" timestamp="1601368376305" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1601368376303">
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484713889" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1616484713887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593677" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900/0.-1087.1920.1080/-1080.-1087.1080.1920@0.0.1440.900" timestamp="1601368376303" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1601368376303">
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484713887" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1616484713890">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593675" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900/0.-1087.1920.1080/-1080.-1087.1080.1920@0.0.1440.900" timestamp="1601368376303" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1601368376304">
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484713890" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1616484481024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593678" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900/0.-1087.1920.1080/-1080.-1087.1080.1920@0.0.1440.900" timestamp="1601368376304" />
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1598526593682">
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484481024" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1616484481020">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593682" />
-    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1598526593681">
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484481020" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1616484481018">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593681" />
-    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1598526593680">
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484481018" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1616484481023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593679" />
-    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1598526593681">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900/0.-1080.1920.1080/-1080.-1080.1080.1920@0.0.1440.900" timestamp="1598526593681" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900/-195.-1080.1920.1080@0.0.1440.900" timestamp="1616484481023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,6 +169,11 @@
           <url>file://$PROJECT_DIR$/src/com/laulee/SubsetsII.java</url>
           <line>84</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/laulee/lfu/LFU.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
